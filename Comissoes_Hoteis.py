@@ -35,6 +35,8 @@ def gerar_df_phoenix(base_luck, request_select):
 
     return df
 
+st.set_page_config(layout='wide')
+
 st.title('Comissões Hoteis')
 
 st.divider()
